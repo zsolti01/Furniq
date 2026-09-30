@@ -3,6 +3,12 @@
     font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
 }
 
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
 #logoMain {
     width: 500;
