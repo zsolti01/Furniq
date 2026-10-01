@@ -30,11 +30,15 @@ button {
     font-weight: bold;
     color: rgb(137, 94, 21);
     text-decoration: none;
+    border: 3px solid rgb(39, 39, 39);
+    border-radius: 10px;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(204, 151, 52);
     color: rgb(225, 212, 182);
+    border: 3px solid rgb(39, 39, 39);
+    border-radius: 10px;
 }
 
 .BtnLink {
@@ -44,7 +48,6 @@ button:hover{
     line-height: 45px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(216, 190, 142);
     color: rgb(137, 94, 21);
     font-size: 20px;
     font-weight: bold;
@@ -54,7 +57,6 @@ button:hover{
 }
 
 .BtnLink:hover {
-    background-color: rgb(204, 151, 52);
     color: rgb(225, 212, 182);
 }
 
@@ -69,4 +71,40 @@ button:hover{
 #signLink p {
     margin-top: 40px;
     margin-bottom: 3px;
+}
+
+#links {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#main p {
+    font-size: 25px;
+}
+
+.main-Btn {
+    margin-bottom: 35px;
+}
+
+.navLinks {
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(137, 94, 21);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.navLinks:hover {
+    color: rgb(225, 212, 182);
 }
