@@ -11,7 +11,7 @@ body {
 }
 
 #logoMain {
-    width: 500;
+    width: 500px;
     height: 250px;
     display: block;
     margin-left: auto;
@@ -37,10 +37,25 @@ button:hover{
     color: rgb(225, 212, 182);
 }
 
-#BtnLink {
-    text-decoration: none;
+.BtnLink {
+    display: block;
     width: 150px;
     height: 45px;
+    line-height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(216, 190, 142);
+    color: rgb(137, 94, 21);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.BtnLink:hover {
+    background-color: rgb(204, 151, 52);
+    color: rgb(225, 212, 182);
 }
 
 #signLink {
