@@ -135,3 +135,17 @@ const products = [
         img: "https://img.butor1.hu/detailed/4327/bathroom-mirror-cabinet-camelbu-102_4327148.jpg?w=460&h=345&p=fw"
     }
 ];
+
+const container = document.getElementById("loadProducts");
+products.forEach(product => {
+    const productCard = document.createElement("div");
+    productCard.innerHTML = `
+        <img src="${product.img}" alt="${product.name}">
+        <h2>${product.name}</h2>
+        <p>${product.category}</p>
+        <p>${product.description}</p>
+        <p>${product.price} Ft</p>
+        <p>Stock: ${product.stock}</p>
+    `;
+    container.appendChild(productCard);
+});
