@@ -104,3 +104,21 @@ button:hover {
 .navLinks:hover {
     color: rgb(225, 212, 182);
 }
+
+#loadProducts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 40px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+.product-card img {
+    width: 100%;
+    border-bottom: 3px solid black;
+}

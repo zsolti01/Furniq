@@ -139,13 +139,14 @@ const products = [
 const container = document.getElementById("loadProducts");
 products.forEach(product => {
     const productCard = document.createElement("div");
+    productCard.classList.add("product-card");
     productCard.innerHTML = `
         <img src="${product.img}" alt="${product.name}">
         <h2>${product.name}</h2>
         <p>${product.category}</p>
         <p>${product.description}</p>
         <p>${product.price} Ft</p>
-        <p>Stock: ${product.stock}</p>
+        <button>Details</button>
     `;
     container.appendChild(productCard);
 });
